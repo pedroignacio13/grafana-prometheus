@@ -12,8 +12,9 @@ Since we're using a docker-compose file, the Docker engine is the only requireme
 
 1. Clone this repository
 2. Make sure Docker is running in your computer
-3. Open a terminal instance inside the folder which contains the files you downloaded
-4. Execute the following command:
+3. Make sure to insert the ABSOLUTE PATH to your prometheus.yml file in the docker-compose prometheus volume's declaration
+4. Open a terminal instance inside the folder which contains the files you downloaded
+5. Execute the following command:
 
 ```bash
 docker-compose up -d
